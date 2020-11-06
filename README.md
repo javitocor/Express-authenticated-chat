@@ -21,7 +21,7 @@
 
 # Express-authenticated-chat
 
->  A chat that requires authentification to access. Built with Expressjs, Mongoose, Passport and Socket.IO
+>  A chat that requires authentification to access. User can log in or use Github OAuth to access. Built with Expressjs, Mongoose, Passport, Bcrypt and Socket.IO
 
 
 Additional description about the project and its features.
