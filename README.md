@@ -19,9 +19,9 @@
 [![Issues][issues-shield]][issues-url] 
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
-# Blog-API-Express
+# Express-authenticated-chat
 
->  A blog API with authentication. Built with Express, Mongoose and JWT.
+>  A chat that requires authentification to access. Built with Expressjs, Mongoose, Passport and Socket.IO
 
 
 Additional description about the project and its features.
@@ -33,7 +33,9 @@ Additional description about the project and its features.
 - EXPRESS
 - MONGOOSE
 - PASSPORT
-- JWT
+- BCRYPT
+- SOCKET.IO
+- PUG
 - NODE
 - ESLINT
 - GITHUB ACTIONS
@@ -41,22 +43,22 @@ Additional description about the project and its features.
 
 ### Usage
 To have this app on your pc, you need to:
-* [download](https://github.com/javitocor/Blog-API-Express/archive/development.zip) or clone this repo:
+* [download](https://github.com/javitocor/Express-authenticated-chat/archive/development.zip) or clone this repo:
   - Clone with SSH:
   ```
-    git@github.com:javitocor/Blog-API-Express.git
+    git@github.com:javitocor/Express-authenticated-chat.git
   ```
   - Clone with HTTPS
   ```
-    https://github.com/javitocor/Blog-API-Express.git
+    https://github.com/javitocor/Express-authenticated-chat.git
   ```
 
 * In the project directory, you can run:
 
   - `$ npm install` - installs all the dependencies required by the project
 
-  - `$ npm run devstart` - runs the app in the development mode:
-    - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - `$ npm run dev` - runs the app in the development mode:
+    - Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
     - The page will reload if you make edits.
   
 ## Authors
@@ -71,7 +73,7 @@ To have this app on your pc, you need to:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/javitocor/Blog-API-Express/issues).
+Feel free to check the [issues page](https://github.com/javitocor/Express-authenticated-chat/issues).
 
 ## Show your support
 
@@ -79,7 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments 🚀
 
-- The Odin Project
+- Freecodecamp
 - Express Documentation
 - MDN
 
@@ -89,11 +91,11 @@ This project is [MIT](lic.url) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Blog-API-Express.svg?style=flat-square
-[contributors-url]: https://github.com/javitocor/Blog-API-Express/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/javitocor/Blog-API-Express.svg?style=flat-square
-[forks-url]: https://github.com/javitocor/Blog-API-Express/network/members
-[stars-shield]: https://img.shields.io/github/stars/javitocor/Blog-API-Express.svg?style=flat-square
-[stars-url]: https://github.com/javitocor/Blog-API-Express/stargazers
-[issues-shield]: https://img.shields.io/github/issues/javitocor/Blog-API-Express.svg?style=flat-square
-[issues-url]: https://github.com/javitocor/Blog-API-Express/issues
+[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Express-authenticated-chat.svg?style=flat-square
+[contributors-url]: https://github.com/javitocor/Express-authenticated-chat/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/javitocor/Express-authenticated-chat.svg?style=flat-square
+[forks-url]: https://github.com/javitocor/Express-authenticated-chat/network/members
+[stars-shield]: https://img.shields.io/github/stars/javitocor/Express-authenticated-chat.svg?style=flat-square
+[stars-url]: https://github.com/javitocor/Express-authenticated-chat/stargazers
+[issues-shield]: https://img.shields.io/github/issues/javitocor/Express-authenticated-chat.svg?style=flat-square
+[issues-url]: https://github.com/javitocor/Express-authenticated-chat/issues
