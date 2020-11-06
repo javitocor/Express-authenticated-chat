@@ -2,7 +2,7 @@
   "name": "fcc-advanced-node-and-express",
   "author": "Javier Correas",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "A chat that requires authentification to access. User can log in or use Github OAuth to access. Built with Expressjs, Mongoose, Passport and Socket.IO",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
